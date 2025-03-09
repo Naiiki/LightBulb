@@ -1,1 +1,1 @@
-# LightBulb.github.io
+# LightBulb
