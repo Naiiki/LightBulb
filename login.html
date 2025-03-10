@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log in</title>
-    <link rel="stylesheet" href="styles/dark/login.css" />
+    <link rel="stylesheet" href="styles/login.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -20,23 +20,34 @@
       </div>
     </header>
     <div class="container">
-      <div class="form-container">
+      <div class="box">
         <form action="#" method="POST">
           <h1>Log in</h1>
-          <input type="email" name="email" placeholder="Email" required />
+          <input
+            type="email"
+            aria-label="Type your email"
+            name="email"
+            placeholder="Email"
+            required
+          />
           <input
             type="password"
             name="password"
+            aria-label="Type your password"
             placeholder="Password"
             required
           />
-          <input type="submit" value="Login" />
+          <input aria-label="Log in" type="submit" value="Login" />
         </form>
       </div>
+      <div class="box links">
+        <a href="forgot-password.html">Forgot Password?</a>
+        <a href="pages/signup/signup.html">Don't have an account? Sign up</a>
+      </div>
     </div>
-    <div class="links">
-      <a href="forgot-password.html">Forgot Password?</a>
-      <a href="pages/signup/signup.html">Don't have an account? Sign up</a>
-    </div>
+    <footer>
+      <p>&copy; 2025 LightBulb. All rights reserved.</p>
+    </footer>
   </body>
+  <script src="scripts/login/login.js"></script>
 </html>
