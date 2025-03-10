@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../../styles/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="dark-mode-toggle">
+        <label class="switch">
+          <input type="checkbox" id="dark-mode" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </header>
+    <div class="container">
+      <div class="box">
+        <form action="pages/home/home.html">
+          <h1>Sign up</h1>
+          <input
+            type="text"
+            aria-label="Type your full name"
+            name="name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            aria-label="Type your email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            aria-label="Type your password"
+            placeholder="Password"
+            required
+          />
+          <input aria-label="Sign up" type="submit" value="Sign up" />
+        </form>
+      </div>
+      <div class="box links">
+        <a href="pages/ToS/ToS.html">
+          Terms of Service<i class="fa-solid fa-circle-info"></i>
+        </a>
+        <a href="../../login.html">
+          <i class="fa-solid fa-user"></i>Already have an account? Log in
+        </a>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 LightBulb. All rights reserved.</p>
+    </footer>
+  </body>
+  <script src="../../scripts/themeToggle/themeToggle.js"></script>
+</html>
