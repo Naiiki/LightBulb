@@ -119,7 +119,7 @@ header {
     margin-bottom: 5px;
   }
 
-  form {
+form {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -139,9 +139,9 @@ header {
       font-size: 1.6rem;
       transition: background 0.15s ease-in-out, transform 0.1s;
 
-      &:hover {
+      input[type="password"],
+      input[type="email"] :hover {
         background: #555;
-        transform: scale(1.01);
       }
 
       &:focus {
